@@ -1,0 +1,37 @@
+body {
+    background: aquamarine;
+}
+.nav-link {
+    color: aquamarine;
+}
+.navbar.navbar-expand-lg.bg-dark .navbar-brand.active {
+    color: rgb(255, 255, 255);
+}
+.navbar-nav .nav-link.active {
+    color: rgb(255, 255, 255);  
+}
+.navbar-brand>img {
+    width: 80px;
+    color: aliceblue;
+}
+.accordion {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1566px;
+}
+.vk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-toggler {
+    background-color: aquamarine;
+}
+
+
+  .card {
+    grid-template-columns: repeat(9, 3fr);
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
